@@ -51,37 +51,23 @@ python your_script_name.py
 ├── hybrid_spam_detector.ipynb         # Full source code (Jupyter)
 ├── README.md                          # This file
 └── your_script.py                     # Python script version (optional)
- Installation
+ ## Installation
 Install the required Python packages using pip:
-
-bash
-Copy
-Edit
 pip install pandas numpy matplotlib seaborn scikit-learn gradio ucimlrepo
 Or use:
-
-bash
-Copy
-Edit
 pip install -r requirements.txt
-🛠 How to Run
+
+##🛠 How to Run
 Clone this repository.
-
 Make sure spam_ham_synthetic_dataset.csv is present.
-
 Run the .ipynb notebook or Python file.
-
 Test messages via the Gradio interface.
 
 📈 Sample Input
-text
-Copy
-Edit
+
 Congratulations! You’ve been selected for a $1000 Amazon gift card.
-Output:
-
+##Output:
 Final Prediction: Spam
-
 Model Metrics: Spam probabilities, accuracies, and reports shown
 
-🧪 Example Screenshot
+
